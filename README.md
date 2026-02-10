@@ -10,7 +10,7 @@ This project exists as a workaround to that.
   - [Just a command runner](https://github.com/casey/just)
   - [Fish shell](https://github.com/fish-shell/fish-shell)
   - [Python](https://www.python.org/) (optional, for testing the website)
-  + This setup uses symlinks. If you are on Mac or Linux, then you don't need to worry. But if you are on Windows, then make sure to [enable symlinks on Windows](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-10/security/threat-protection/security-policy-settings/create-symbolic-links)
+  + This setup only works on Mac and Linux, not Windows
 + Now you can clone this repo: `git clone https://github.com/EnzoMoser/typ2html`
 
 ## Usage
