@@ -46,6 +46,13 @@ Inside `typst/`, create as many directories with corresponding `index.typ` files
 // The rest goes here
 ```
 
+The default title will be the directory name, except for root, which is "home". To change the title:
+```typst
+#import ".conf.typ": conf
+#show: conf.with(title: [Custom title here])
+
+```
+
 You can edit `style.css` to change the CSS style and also `typst/.conf.typ` to change the default layout
 
 ## How it works

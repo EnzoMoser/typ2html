@@ -1,4 +1,4 @@
-#let conf(doc) = {
+#let conf(title: none, doc) = {
   // Style
   html.link(
     rel: "stylesheet",
@@ -38,8 +38,9 @@
     }
   }
   // Set the title
+  if title == none { title = content.title }
   set document(
-    title: content.title
+    title: title
   )
   // Render math correctly
   show math.equation.where(block: false): it => {
@@ -57,7 +58,7 @@
     }
   }
   show_content()
-  title()
+  std.title()
   // Show rest of document
   doc
 }
