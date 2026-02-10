@@ -1,0 +1,7 @@
+title = "home"
+home = ""
+up_dir = ""
+subdirs = [
+  "cooking",
+  "programming",
+]

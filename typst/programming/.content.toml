@@ -1,0 +1,6 @@
+title = "programming"
+home = ".."
+up_dir = ""
+subdirs = [
+  "bash",
+]

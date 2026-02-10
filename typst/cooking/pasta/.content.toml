@@ -1,0 +1,8 @@
+title = "pasta"
+home = "../.."
+up_dir = "cooking"
+subdirs = [
+  "1. Kneeding pasta dough",
+  "2. Boiling pasta",
+  "3. Pasta sauces",
+]

@@ -1,0 +1,6 @@
+title = "cooking"
+home = ".."
+up_dir = ""
+subdirs = [
+  "pasta",
+]
