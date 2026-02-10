@@ -59,4 +59,4 @@ functions/gen_content.fish
 + Recursively compile each `index.typ` inside `typst/` into `index.html` inside `html/`
 + Remove files and folders from `html/` that aren't in `typst/`
 
-Also, checkout out [shiroa](https://github.com/Myriad-Dreamin/shiroa), which is a fancier tool that allows for more complex websites.
+Also, checkout out [shiroa](https://github.com/Myriad-Dreamin/shiroa), which is a fancier tool that allows for more complex websites made from `typst`
