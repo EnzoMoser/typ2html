@@ -6,6 +6,7 @@ This project exists as a workaround to that.
 
 ## Installation
 + Make sure you have the following programs installed:
+  - [Typst](https://github.com/typst/typst)
   - [Just a command runner](https://github.com/casey/just)
   - [Fish shell](https://github.com/fish-shell/fish-shell)
   - [Python](https://www.python.org/) (optional, for testing the website)
