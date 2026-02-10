@@ -1,5 +1,5 @@
 title = "2. Boiling pasta"
 home = "../../.."
-up_dir = ""
+up_dir = "pasta"
 subdirs = [
 ]

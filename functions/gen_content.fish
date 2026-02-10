@@ -43,7 +43,7 @@ function repeat_dfs --argument-names depth parent_name
 
     gen_toml "$title" "$home" "$parent_name"
 
-    if contains "$home" ".."
+    if not contains "$home" ""
         set parent_name (basename (pwd -P))
     else
         set parent_name ""
