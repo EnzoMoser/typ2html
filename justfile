@@ -1,8 +1,14 @@
 set shell := ["fish", "-c"]
 
+# Watch and update specific directory
 watch input=".":
     typst watch --features html --no-serve "{{input}}/index.typ" "html/index.html"
 
+# Run a local server to test the html
+host:
+    python3 -m http.server 1102 -d html
+
+# Compile the `typst/` dir into `html/`
 [default]
 compile:
     # Make the `html/` directory and symlink `style.css` inside it
