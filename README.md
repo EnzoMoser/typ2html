@@ -14,13 +14,13 @@ This project exists as a workaround to that.
 ## Usage
 Go into the cloned repo:
 
-```
+```sh
 cd typ2html/
 ```
 
 Run the following command. This will compile the example files located in `typst`:
 
-```
+```sh
 just
 ```
 
@@ -29,7 +29,7 @@ Now you should have a new directory called `html/`. These are the corresponding 
 
 We can test the compiled html with a HTTP server. To run a local one using Python:
 
-```
+```sh
 python3 -m http.server 1102 -d html
 ```
 
