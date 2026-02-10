@@ -33,7 +33,7 @@ We can test the compiled html with a HTTP server. To run a local one using Pytho
 python3 -m http.server 1102 -d html
 ```
 
-Now open your browser and go to `http://0.0.0.0:1102/`. You now have a website built from typst!
+Now open your browser and go to <http://0.0.0.0:1102/>. You now have a website built from typst!
 
 ## Editing
 Inside `typst/`, create as many directories with corresponding `index.typ` files and edit these files to your desires. The script will recursively look for the and compile the file `index.typ` inside the `typst/` directory. If you make a new `index.typ`, make sure to include the following:
