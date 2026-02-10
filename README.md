@@ -14,18 +14,24 @@ This project exists as a workaround to that.
 ## Usage
 Go into the cloned repo:
 
-`cd typ2html/`
+```
+cd typ2html/
+```
 
 Run the following command. This will compile the example files located in `typst`:
 
-`just`
+```
+just
+```
 
 
 Now you should have a new directory called `html/`. These are the corresponding html files compiled from the `typst/` directory.
 
 We can test the compiled html with a HTTP server. To run a local one using Python:
 
-`python3 -m http.server 1102 -d html`
+```
+python3 -m http.server 1102 -d html
+```
 
 Now open your browser and go to `http://0.0.0.0:1102/`. You now have a website built from typst!
 
